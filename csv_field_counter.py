@@ -98,8 +98,8 @@ class CsvFieldCounter:
 
 # ---------------------------IMPLEMENTATION-----------------------------------
 
-input_filename = "./data.csv"
-output_json = "./data_results.json"
+input_filename = r"test_csvs\data.csv"
+output_json = r"test_csvs\data_results.json"
 
 
 t0 = time.time()
