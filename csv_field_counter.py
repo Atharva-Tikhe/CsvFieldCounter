@@ -27,9 +27,6 @@ class CsvFieldCounter:
         #         create a list - iterable and easy indexing
         self.lines = list(csv_reader)
 
-        # used for calculating percentage
-        self.total_rows = len(self.lines)
-
         # default dictionary with default value set to []
         self.columns = dd(lambda: [])
 
@@ -44,7 +41,6 @@ class CsvFieldCounter:
             various length of rows (columns) are keys and rows with respective columns
             are appended to the list.
             columns[number of columns ] = [list of rows with that number of columns]
-            :param self: only object object should call this method explicitly
         '''
         count = {}
 
@@ -98,11 +94,9 @@ class CsvFieldCounter:
 
 # ---------------------------IMPLEMENTATION-----------------------------------
 
-input_filename = r"test_csvs\data.csv"
-output_json = r"test_csvs\data_results.json"
+input_filename = r"E:\Atharva\Evolvus\CSV_validator\data_profiling\check_app.csv"
+output_json = r"escape_test_result.json"
 
 
 t0 = time.time()
 obj = CsvFieldCounter(input_filename, output_json)
-t1 = time.time()
-print(f'time taken : {t1-t0}')
