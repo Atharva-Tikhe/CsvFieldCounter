@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "input": "escape_test.csv",
+        "format": "columns:rows",
+        "counts": {
+            "columnCount": [
+                "count",
+                [
+                    "firstValues"
+                ]
+            ]
+        }
+    },
+    "columnWise": {
+        "3": [
+            1,
+            2,
+            4
+        ],
+        "4": [
+            3
+        ]
+    },
+    "counts": {
+        "3": [
+            3,
+            [
+                "\"ABC\"",
+                "23"
+            ]
+        ],
+        "4": [
+            1,
+            [
+                "\"ABC\"",
+                "200"
+            ]
+        ]
+    }
+}

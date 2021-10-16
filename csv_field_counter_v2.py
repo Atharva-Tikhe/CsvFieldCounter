@@ -34,7 +34,7 @@ class csv_processor:
         for row in rows:
             csv_processor.columns[len(row)].append(rows.index(row) + 1)
 
-        if self.settings['show_first_item']:
+        if self.settings['show_first_items']:
             if len(csv_processor.columns.keys()) > 1:
                 for column, rows in csv_processor.columns.copy().items():
                     count[column].append(len(rows))
@@ -48,8 +48,15 @@ class csv_processor:
 
         if self.settings["output"] is not None:
             with open(f'{self.settings["output"]}', 'w', encoding='utf-8') as out:
-                json.dump({'metadata': {'input': f'{settings["input"]}', "format": "columns:rows"},
-                           "columnWise": csv_processor.columns, "counts": count}, out)
+                json.dump({'metadata': {'input': f'{settings["input"]}', "format": "columns:rows", "counts": {
+                    "columnCount": [
+                        "count",
+                        [
+                            "firstValues"
+                        ]
+                    ]
+                }},
+                    "columnWise": csv_processor.columns, "counts": count}, out)
 
 
 settings = {
