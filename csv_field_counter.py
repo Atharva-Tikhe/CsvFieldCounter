@@ -27,9 +27,6 @@ class CsvFieldCounter:
         #         create a list - iterable and easy indexing
         self.lines = list(csv_reader)
 
-        # used for calculating percentage
-        self.total_rows = len(self.lines)
-
         # default dictionary with default value set to []
         self.columns = dd(lambda: [])
 
