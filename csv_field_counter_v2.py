@@ -55,7 +55,7 @@ class csv_processor:
 settings = {
     'input': 'escape_test.csv',
     'output': 'escaping_test_result.json',
-    'show_first_item': False,
+    'show_first_items': True,
     'stop_at': None,
 }
 
