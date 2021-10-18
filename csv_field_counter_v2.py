@@ -64,7 +64,7 @@ settings = {
     'input': 'escape_test.csv',
     'output': 'escaping_test_result.json',
     'show_first_items': True,
-    # performs slicing, like [0:stop_at] to get that many files.
+    # performs slicing, like [0:stop_at] to get that many lines.
     'stop_at': None,
 }
 
