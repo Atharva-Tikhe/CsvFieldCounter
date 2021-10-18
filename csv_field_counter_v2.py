@@ -5,15 +5,14 @@ import json
 
 class csv_processor:
 
-    columns = dd(lambda: [])
-    escaped = []
+    columns = dd(lambda: [])  # will hold all the values of columns and rows
+    escaped = []  # will hold correctly escaped lines
 
     def __init__(self, settings: dict) -> None:
         self.settings = settings
         self.escape_comma()
 
     def escape_comma(self):
-
         file = open(f"{settings['input']}", 'r', encoding='utf-8')
         lines = file.readlines()
         if settings['stop_at'] is not None:
@@ -58,6 +57,8 @@ class csv_processor:
                 }},
                     "columnWise": csv_processor.columns, "counts": count}, out)
 
+# ================================================ SETTINGS ==============================================
+
 
 settings = {
     'input': 'escape_test.csv',
@@ -65,5 +66,7 @@ settings = {
     'show_first_items': True,
     'stop_at': None,
 }
+
+# =========================================================================================================
 
 obj = csv_processor(settings=settings)
