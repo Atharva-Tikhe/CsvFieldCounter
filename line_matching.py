@@ -26,8 +26,6 @@ class line_matching:
         [final_lines.append(escape_regex.split(line))
             for line in lines]
 
-        print(len(final_lines))
-
         return final_lines
 
     def correct_rows(self, lines: list):
@@ -38,9 +36,6 @@ class line_matching:
                     lines[lines.index(line)+1])
                 del(lines[lines.index(
                     line)+1])
-
-        print(len(lines))
-        print(lines)
 
         return lines
 
@@ -74,5 +69,4 @@ settings = {
     'print_both_df': True
 }
 
-# escape_comma(settings=settings)
 line_matching(settings)
