@@ -1,0 +1,5 @@
+10/29/2021 09:25:40, AM: New run =================
+10/29/2021 09:25:40, AM: Processing started
+10/29/2021 09:25:40, AM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 09:25:41, AM: comparison csv generate
+10/29/2021 09:25:41, AM: Processing finished

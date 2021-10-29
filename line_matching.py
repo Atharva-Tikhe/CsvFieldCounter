@@ -1,4 +1,6 @@
 import re
+import logging
+
 
 class line_matching:
 
@@ -6,12 +8,18 @@ class line_matching:
 
     def __init__(self, settings: dict) -> None:
         self.settings = settings
-
         self.file = open(f"{settings['input']}", 'r', encoding='utf-8')
+
+        logging.basicConfig(filename='line_matching.log', format="%(asctime)s %(message)s",
+                            datefmt="%m/%d/%Y %I:%M:%S, %p:", level=logging.INFO)
+
+        logging.info('New run =================')
+        logging.info('Processing started')
         final_lines = self.escape_comma()
         final_lines_modified = self.correct_rows(final_lines)
         self.compare_dfs(row_modified=final_lines_modified,
                          row_unmodified=final_lines)
+        logging.info('Processing finished')
 
     def escape_comma(self) -> None:
         final_lines = []
@@ -36,6 +44,9 @@ class line_matching:
                     lines[lines.index(line)+1])
                 del(lines[lines.index(
                     line)+1])
+                if len(line) != actual_cols:
+                    logging.warning(
+                        f"Line doesn't have correct amount of rows: {line}")
 
         return lines
 
@@ -58,6 +69,7 @@ class line_matching:
 
         df_all.to_csv(f"{settings['output'].split('.')[0]}_comparison.csv")
         print('comparison csv generated')
+        logging.info('comparison csv generate')
 
 
 settings = {

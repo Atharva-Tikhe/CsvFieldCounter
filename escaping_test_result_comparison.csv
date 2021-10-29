@@ -1,60 +1,60 @@
-,0,1_x,2_x,1_y,2_y,_merge
+,0,1_x,2_x,3_x,1_y,2_y,3_y,_merge
 0,"""ABC,'DE,F',GHI""",90,"""JKL""
-",90,"""JKL""
-",both
+",,90,"""JKL""
+",,both
 1,"""ABC""",23,"""XYZ""
-",23,"""XYZ""
-",both
+",,23,"""XYZ""
+",,both
 2,"""ABC""",23,"""XYZ""
-",200,"""MNO'PQR'S""
-",both
+",,200,"""MNO'PQR'S""
+",,both
 3,"""ABC""",23,"""XYZ""
-",23,"""XYZ""
-",both
+",,23,"""XYZ""
+",,both
 4,"""ABC""",23,"""XYZ""
-",200,"""MNO'PQR'S""
-",both
+",,200,"""MNO'PQR'S""
+",,both
 5,"""ABC""",200,"""MNO'PQR'S""
-",23,"""XYZ""
-",both
+",,23,"""XYZ""
+",,both
 6,"""ABC""",200,"""MNO'PQR'S""
-",200,"""MNO'PQR'S""
-",both
+",,200,"""MNO'PQR'S""
+",,both
 7,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""
-",both
+",,785,"""W'XY'Z""
+",,both
 8,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""",both
+",,785,"""W'XY'Z""",,both
 9,"""this is a"""," ""line""
 ","""which got cut off""
-"," ""line""
+",," ""line""
 ","""which got cut off""
-",both
+",,both
 10,"""this is another"""," ""line""
-","""which got cut off""
+","""which got cut off"""," ""checking logging and handling wrong col nos""
 "," ""line""
-","""which got cut off""
+","""which got cut off"""," ""checking logging and handling wrong col nos""
 ",both
 11,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""
-",both
+",,785,"""W'XY'Z""
+",,both
 12,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""",both
+",,785,"""W'XY'Z""",,both
 13,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""
-",both
+",,785,"""W'XY'Z""
+",,both
 14,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""",both
+",,785,"""W'XY'Z""",,both
 15,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""
-",both
+",,785,"""W'XY'Z""
+",,both
 16,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""",both
+",,785,"""W'XY'Z""",,both
 17,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""
-",both
+",,785,"""W'XY'Z""
+",,both
 18,"""TUV""",785,"""W'XY'Z""
-",785,"""W'XY'Z""",both
-19,"""TUV""",785,"""W'XY'Z""",785,"""W'XY'Z""
-",both
-20,"""TUV""",785,"""W'XY'Z""",785,"""W'XY'Z""",both
+",,785,"""W'XY'Z""",,both
+19,"""TUV""",785,"""W'XY'Z""",,785,"""W'XY'Z""
+",,both
+20,"""TUV""",785,"""W'XY'Z""",,785,"""W'XY'Z""",,both
