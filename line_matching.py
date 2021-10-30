@@ -16,11 +16,10 @@ class line_matching:
         logging.basicConfig(filename='line_matching.log', format="%(asctime)s %(message)s",
                             datefmt="%m/%d/%Y %I:%M:%S, %p:", level=logging.INFO)
 
-
         logging.info('New run =================')
         logging.info('Processing started')
         final_lines = self.escape_comma()
-        final_lines_modified = self.correct_rows(final_lines)
+        final_lines_modified = self.correct_rows_and_match(final_lines)
 
         logging.info('Processing finished')
 
@@ -41,7 +40,7 @@ class line_matching:
 
         return final_lines
 
-    def correct_rows(self, lines: list):
+    def correct_rows_and_match(self, lines: list):
         df_untouched = pd.DataFrame(lines)
 
         actual_cols = len(lines[0])
