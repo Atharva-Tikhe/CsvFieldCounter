@@ -6,7 +6,7 @@
 "this is a", "line"
 "which got cut off"
 "this is another", "line"
-"which got cut off", "checking logging and handling wrong col nos"
+"which got cut off"
 "TUV",785,"W\"XY\"Z"
 "TUV",785,"W\"XY\"Z"
 "TUV",785,"W\"XY\"Z"

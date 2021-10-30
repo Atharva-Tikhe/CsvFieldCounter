@@ -1,5 +1,8 @@
 import re
 import logging
+from typing import final
+import pandas as pd
+from pandas.core.indexing import IndexingError
 
 
 class line_matching:
@@ -13,19 +16,21 @@ class line_matching:
         logging.basicConfig(filename='line_matching.log', format="%(asctime)s %(message)s",
                             datefmt="%m/%d/%Y %I:%M:%S, %p:", level=logging.INFO)
 
+
         logging.info('New run =================')
         logging.info('Processing started')
         final_lines = self.escape_comma()
         final_lines_modified = self.correct_rows(final_lines)
-        self.compare_dfs(row_modified=final_lines_modified,
-                         row_unmodified=final_lines)
+
         logging.info('Processing finished')
 
     def escape_comma(self) -> None:
         final_lines = []
-        lines = self.file.readlines()
+
         if self.settings['stop_at'] is not None:
-            lines = lines[:settings['stop_at']]
+            lines = self.file.readlines()[:settings['stop_at']]
+        else:
+            lines = self.file.readlines()
 
         lines = [line.replace(r'''\"''', "'") for line in lines]
 
@@ -37,39 +42,53 @@ class line_matching:
         return final_lines
 
     def correct_rows(self, lines: list):
+        df_untouched = pd.DataFrame(lines)
+
         actual_cols = len(lines[0])
         for line in lines:
             if len(line) < actual_cols:
-                lines[lines.index(line)].extend(
+                lines[lines.index(line)].append(
                     lines[lines.index(line)+1])
-                del(lines[lines.index(
-                    line)+1])
+
+                '''
+                    Use of extend was dropped as it was creating new element in the list (which gave wrong column numbers)
+                    append will cause nesting but column number will be preserved.
+                '''
+                # lines[lines.index(line)].extend(lines[lines.index(line)+1])
+
+                del(lines[lines.index(line)+1])
                 if len(line) != actual_cols:
                     logging.warning(
                         f"Line doesn't have correct amount of rows: {line}")
 
-        return lines
+        row_corrected_df = pd.DataFrame([row for row in lines])
 
-    def compare_dfs(self, row_modified: list, row_unmodified: list):
-        import pandas as pd
-        test_df = pd.DataFrame(row_modified)
+        final_df = pd.DataFrame(
+            columns=['linewise processing', 'autoload in pandas', 'match'])
 
-        untouched_df = pd.DataFrame(row_unmodified)
+        for index in row_corrected_df.index:
+            if row_corrected_df.iloc[[index]].to_string(header=False, index=False) == df_untouched.iloc[[index]].to_string(header=False, index=False):
 
-        if self.settings['print_both_df']:
-            print('Displaying line by line modified df:')
-            print(test_df)
-            print('='*(len(test_df[0])*10))
+                final_df.at[f'{index}', 'linewise processing'] = row_corrected_df.iloc[[
+                    index]].to_string(header=False, index=False)
 
-            print('Displaying df read by pandas:')
-            print(untouched_df)
+                final_df.at[f'{index}', 'autoload in pandas'] = df_untouched.iloc[[
+                    index]].to_string(header=False, index=False)
+                final_df.at[f'{index}', 'match'] = True
+            else:
+                logging.warn(
+                    f"execution stopped; rows don't match at index : {index}")
+                final_df.at[f'{index}', 'linewise processing'] = row_corrected_df.iloc[[
+                    index]].to_string(header=False, index=False)
 
-        df_all = test_df.merge(untouched_df.drop_duplicates(), on=[0],
-                               how='left', indicator=True)  # test_df is left, untouched_df is right
+                final_df.at[f'{index}', 'autoload in pandas'] = df_untouched.iloc[[
+                    index]].to_string(header=False, index=False)
+                final_df.at[f'{index}', 'match'] = False
 
-        df_all.to_csv(f"{settings['output'].split('.')[0]}_comparison.csv")
-        print('comparison csv generated')
-        logging.info('comparison csv generate')
+                final_df.to_csv(
+                    f"{self.settings['output']}_comparison.csv", index_label='index')
+                break
+        print(final_df)
 
 
 settings = {
@@ -78,7 +97,7 @@ settings = {
     'show_first_items': True,
     # performs slicing, like [0:stop_at] to get that many files.
     'stop_at': None,
-    'print_both_df': True
+    'print_both_df': False
 }
 
 line_matching(settings)
