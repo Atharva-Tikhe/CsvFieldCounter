@@ -1,8 +1,6 @@
 import re
 import logging
-from typing import final
 import pandas as pd
-from pandas.core.indexing import IndexingError
 
 
 class line_matching:
@@ -18,11 +16,11 @@ class line_matching:
 
         logging.info('New run ' + '='*10)
         logging.info('Processing started')
+
         final_lines = self.escape_comma()
         self.correct_rows_and_match(final_lines)
 
         logging.info('Processing finished')
-        logging.info('Script done ... ' + '='*10)
 
     def escape_comma(self) -> None:
         final_lines = []
