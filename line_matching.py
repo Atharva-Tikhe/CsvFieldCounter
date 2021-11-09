@@ -87,7 +87,8 @@ class line_matching:
             final_df.to_csv(
                 f"{self.settings['output']}_comparison.csv", index_label='index')
 
-        print(final_df)
+        if self.settings['print_output'] == True:
+            print(final_df)
 
 
 settings = {
@@ -96,7 +97,8 @@ settings = {
     'show_first_items': True,
     # performs slicing, like [0:stop_at] to get that many files.
     'stop_at': None,
-    'print_both_df': False
+    'print_both_df': False,
+    'print_output': False
 }
 
 line_matching(settings)
