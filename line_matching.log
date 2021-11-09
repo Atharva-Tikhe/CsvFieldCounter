@@ -1,0 +1,481 @@
+10/29/2021 09:25:40, AM: New run =================
+10/29/2021 09:25:40, AM: Processing started
+10/29/2021 09:25:40, AM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 09:25:41, AM: comparison csv generate
+10/29/2021 09:25:41, AM: Processing finished
+10/29/2021 04:58:31, PM: New run =================
+10/29/2021 04:58:31, PM: Processing started
+10/29/2021 04:58:34, PM: comparison csv generate
+10/29/2021 04:58:34, PM: Processing finished
+10/29/2021 04:59:12, PM: New run =================
+10/29/2021 04:59:12, PM: Processing started
+10/29/2021 04:59:12, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 04:59:14, PM: comparison csv generate
+10/29/2021 04:59:14, PM: Processing finished
+10/29/2021 05:00:11, PM: New run =================
+10/29/2021 05:00:11, PM: Processing started
+10/29/2021 05:00:11, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:00:34, PM: New run =================
+10/29/2021 05:00:34, PM: Processing started
+10/29/2021 05:00:34, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:02:51, PM: New run =================
+10/29/2021 05:02:51, PM: Processing started
+10/29/2021 05:02:51, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:03:08, PM: New run =================
+10/29/2021 05:03:08, PM: Processing started
+10/29/2021 05:03:08, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:03:27, PM: New run =================
+10/29/2021 05:03:27, PM: Processing started
+10/29/2021 05:03:27, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:03:29, PM: comparison csv generate
+10/29/2021 05:03:29, PM: Processing finished
+10/29/2021 05:06:04, PM: New run =================
+10/29/2021 05:06:04, PM: Processing started
+10/29/2021 05:06:04, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:06:06, PM: comparison csv generate
+10/29/2021 05:06:06, PM: Processing finished
+10/29/2021 05:07:13, PM: New run =================
+10/29/2021 05:07:13, PM: Processing started
+10/29/2021 05:07:13, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:07:15, PM: comparison csv generate
+10/29/2021 05:07:15, PM: Processing finished
+10/29/2021 05:42:14, PM: New run =================
+10/29/2021 05:42:14, PM: Processing started
+10/29/2021 05:42:14, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:42:14, PM: comparison csv generate
+10/29/2021 05:42:14, PM: Processing finished
+10/29/2021 05:42:36, PM: New run =================
+10/29/2021 05:42:36, PM: Processing started
+10/29/2021 05:42:36, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:42:36, PM: comparison csv generate
+10/29/2021 05:42:36, PM: Processing finished
+10/29/2021 05:43:00, PM: New run =================
+10/29/2021 05:43:00, PM: Processing started
+10/29/2021 05:43:38, PM: New run =================
+10/29/2021 05:43:38, PM: Processing started
+10/29/2021 05:43:38, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:43:39, PM: comparison csv generate
+10/29/2021 05:43:39, PM: Processing finished
+10/29/2021 05:44:35, PM: New run =================
+10/29/2021 05:44:35, PM: Processing started
+10/29/2021 05:44:35, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:44:35, PM: comparison csv generate
+10/29/2021 05:44:35, PM: Processing finished
+10/29/2021 05:45:02, PM: New run =================
+10/29/2021 05:45:02, PM: Processing started
+10/29/2021 05:45:02, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:45:02, PM: comparison csv generate
+10/29/2021 05:45:02, PM: Processing finished
+10/29/2021 05:47:05, PM: New run =================
+10/29/2021 05:47:05, PM: Processing started
+10/29/2021 05:47:05, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:47:05, PM: comparison csv generate
+10/29/2021 05:47:05, PM: Processing finished
+10/29/2021 05:47:07, PM: New run =================
+10/29/2021 05:47:07, PM: Processing started
+10/29/2021 05:47:07, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:47:07, PM: comparison csv generate
+10/29/2021 05:47:07, PM: Processing finished
+10/29/2021 05:47:43, PM: New run =================
+10/29/2021 05:47:43, PM: Processing started
+10/29/2021 05:48:06, PM: New run =================
+10/29/2021 05:48:06, PM: Processing started
+10/29/2021 05:48:06, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:48:06, PM: comparison csv generate
+10/29/2021 05:48:06, PM: Processing finished
+10/29/2021 05:48:22, PM: New run =================
+10/29/2021 05:48:22, PM: Processing started
+10/29/2021 05:48:22, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:48:23, PM: comparison csv generate
+10/29/2021 05:48:23, PM: Processing finished
+10/29/2021 05:50:00, PM: New run =================
+10/29/2021 05:50:00, PM: Processing started
+10/29/2021 05:50:00, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:50:00, PM: comparison csv generate
+10/29/2021 05:50:00, PM: Processing finished
+10/29/2021 05:51:00, PM: New run =================
+10/29/2021 05:51:00, PM: Processing started
+10/29/2021 05:51:00, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:51:00, PM: comparison csv generate
+10/29/2021 05:51:00, PM: Processing finished
+10/29/2021 05:53:02, PM: New run =================
+10/29/2021 05:53:02, PM: Processing started
+10/29/2021 05:53:02, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:53:02, PM: comparison csv generate
+10/29/2021 05:53:02, PM: Processing finished
+10/29/2021 05:53:33, PM: New run =================
+10/29/2021 05:53:33, PM: Processing started
+10/29/2021 05:53:33, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:53:33, PM: comparison csv generate
+10/29/2021 05:53:33, PM: Processing finished
+10/29/2021 05:54:50, PM: New run =================
+10/29/2021 05:54:50, PM: Processing started
+10/29/2021 05:54:50, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:54:50, PM: comparison csv generate
+10/29/2021 05:54:50, PM: Processing finished
+10/29/2021 05:55:02, PM: New run =================
+10/29/2021 05:55:02, PM: Processing started
+10/29/2021 05:55:02, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:55:02, PM: comparison csv generate
+10/29/2021 05:55:02, PM: Processing finished
+10/29/2021 05:55:55, PM: New run =================
+10/29/2021 05:55:55, PM: Processing started
+10/29/2021 05:55:55, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', ' "checking logging and handling wrong col nos"\n']
+10/29/2021 05:55:55, PM: comparison csv generate
+10/29/2021 05:55:55, PM: Processing finished
+10/29/2021 05:56:50, PM: New run =================
+10/29/2021 05:56:50, PM: Processing started
+10/29/2021 05:57:21, PM: New run =================
+10/29/2021 05:57:21, PM: Processing started
+10/29/2021 05:57:21, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', '\n']
+10/29/2021 05:57:21, PM: comparison csv generate
+10/29/2021 05:57:21, PM: Processing finished
+10/29/2021 05:57:55, PM: New run =================
+10/29/2021 05:57:55, PM: Processing started
+10/29/2021 05:58:13, PM: New run =================
+10/29/2021 05:58:13, PM: Processing started
+10/29/2021 05:58:13, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', '\n']
+10/29/2021 05:58:13, PM: comparison csv generate
+10/29/2021 05:58:13, PM: Processing finished
+10/29/2021 06:01:58, PM: New run =================
+10/29/2021 06:01:58, PM: Processing started
+10/29/2021 06:02:25, PM: New run =================
+10/29/2021 06:02:25, PM: Processing started
+10/29/2021 06:02:53, PM: New run =================
+10/29/2021 06:02:53, PM: Processing started
+10/29/2021 06:03:03, PM: New run =================
+10/29/2021 06:03:03, PM: Processing started
+10/29/2021 06:03:42, PM: New run =================
+10/29/2021 06:03:42, PM: Processing started
+10/29/2021 06:03:42, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', '\n']
+10/29/2021 06:03:42, PM: comparison csv generate
+10/29/2021 06:03:42, PM: Processing finished
+10/29/2021 06:04:28, PM: New run =================
+10/29/2021 06:04:28, PM: Processing started
+10/29/2021 06:04:28, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', '\n']
+10/29/2021 06:04:28, PM: comparison csv generate
+10/29/2021 06:04:28, PM: Processing finished
+10/29/2021 06:08:33, PM: New run =================
+10/29/2021 06:08:33, PM: Processing started
+10/29/2021 06:08:33, PM: Line doesn't have correct amount of rows: ['"this is another"', ' "line"\n', '"which got cut off"', '\n']
+10/29/2021 06:08:57, PM: New run =================
+10/29/2021 06:08:57, PM: Processing started
+10/29/2021 06:08:57, PM: Line doesn't have correct amount of rows: ['"this is another"', ' line\n', '"which got cut off"', '\n']
+10/29/2021 06:09:41, PM: New run =================
+10/29/2021 06:09:41, PM: Processing started
+10/29/2021 06:09:41, PM: Line doesn't have correct amount of rows: ['"W\'XY\'Z"\n', '"TUV"', '785', '"W\'XY\'Z"\n']
+10/29/2021 06:10:02, PM: New run =================
+10/29/2021 06:10:02, PM: Processing started
+10/29/2021 06:10:02, PM: Line doesn't have correct amount of rows: ['"TUV"', '\n', '785', '"W\'XY\'Z"\n']
+10/29/2021 06:10:13, PM: New run =================
+10/29/2021 06:10:13, PM: Processing started
+10/29/2021 06:10:13, PM: Line doesn't have correct amount of rows: ['"TUV"', '\n', '785', '"W\'XY\'Z"\n']
+10/29/2021 06:10:13, PM: comparison csv generate
+10/29/2021 06:10:13, PM: Processing finished
+10/29/2021 06:10:25, PM: New run =================
+10/29/2021 06:10:25, PM: Processing started
+10/29/2021 06:10:34, PM: New run =================
+10/29/2021 06:10:34, PM: Processing started
+10/29/2021 06:10:34, PM: Line doesn't have correct amount of rows: ['"TUV"', '\n', '785', '"W\'XY\'Z"\n']
+10/29/2021 06:10:34, PM: comparison csv generate
+10/29/2021 06:10:34, PM: Processing finished
+10/29/2021 06:11:15, PM: New run =================
+10/29/2021 06:11:15, PM: Processing started
+10/29/2021 06:11:34, PM: New run =================
+10/29/2021 06:11:34, PM: Processing started
+10/29/2021 06:13:56, PM: New run =================
+10/29/2021 06:13:56, PM: Processing started
+10/29/2021 06:14:10, PM: New run =================
+10/29/2021 06:14:10, PM: Processing started
+10/30/2021 04:38:58, PM: New run =================
+10/30/2021 04:38:58, PM: Processing started
+10/30/2021 04:38:58, PM: Line doesn't have correct amount of rows: ['h', ' first\n', 'second', 'x\n']
+10/30/2021 04:38:58, PM: Line doesn't have correct amount of rows: ['k', ' first\n', 'second', 'y\n']
+10/30/2021 04:38:58, PM: Processing finished
+10/30/2021 04:44:02, PM: New run =================
+10/30/2021 04:44:02, PM: Processing started
+10/30/2021 04:44:13, PM: New run =================
+10/30/2021 04:44:13, PM: Processing started
+10/30/2021 04:44:13, PM: Line doesn't have correct amount of rows: ['h', ' first\n']
+10/30/2021 04:44:13, PM: Line doesn't have correct amount of rows: ['k', ' first\n']
+10/30/2021 04:44:13, PM: Processing finished
+10/30/2021 04:44:29, PM: New run =================
+10/30/2021 04:44:29, PM: Processing started
+10/30/2021 04:44:29, PM: Processing finished
+10/30/2021 04:48:29, PM: New run =================
+10/30/2021 04:48:29, PM: Processing started
+10/30/2021 04:48:29, PM: Processing finished
+10/30/2021 04:49:45, PM: New run =================
+10/30/2021 04:49:45, PM: Processing started
+10/30/2021 04:49:45, PM: Line doesn't have correct amount of rows: ['x\n', ['k', ' first\n']]
+10/30/2021 04:49:45, PM: Processing finished
+10/30/2021 04:50:13, PM: New run =================
+10/30/2021 04:50:13, PM: Processing started
+10/30/2021 04:50:13, PM: Processing finished
+10/30/2021 04:50:59, PM: New run =================
+10/30/2021 04:50:59, PM: Processing started
+10/30/2021 04:50:59, PM: Processing finished
+10/30/2021 04:51:46, PM: New run =================
+10/30/2021 04:51:46, PM: Processing started
+10/30/2021 04:52:18, PM: New run =================
+10/30/2021 04:52:18, PM: Processing started
+10/30/2021 04:52:18, PM: Processing finished
+10/30/2021 04:52:46, PM: New run =================
+10/30/2021 04:52:46, PM: Processing started
+10/30/2021 04:52:46, PM: Processing finished
+10/30/2021 04:54:14, PM: New run =================
+10/30/2021 04:54:14, PM: Processing started
+10/30/2021 04:54:29, PM: New run =================
+10/30/2021 04:54:29, PM: Processing started
+10/30/2021 04:54:29, PM: Processing finished
+10/30/2021 04:56:33, PM: New run =================
+10/30/2021 04:56:33, PM: Processing started
+10/30/2021 04:57:35, PM: New run =================
+10/30/2021 04:57:35, PM: Processing started
+10/30/2021 04:58:20, PM: New run =================
+10/30/2021 04:58:20, PM: Processing started
+10/30/2021 04:58:21, PM: Processing finished
+10/30/2021 04:58:42, PM: New run =================
+10/30/2021 04:58:42, PM: Processing started
+10/30/2021 04:58:56, PM: New run =================
+10/30/2021 04:58:56, PM: Processing started
+10/30/2021 04:59:48, PM: New run =================
+10/30/2021 04:59:48, PM: Processing started
+10/30/2021 05:03:31, PM: New run =================
+10/30/2021 05:03:31, PM: Processing started
+10/30/2021 05:03:31, PM: Processing finished
+10/30/2021 05:05:57, PM: New run =================
+10/30/2021 05:05:57, PM: Processing started
+10/30/2021 05:05:57, PM: Processing finished
+10/30/2021 05:12:03, PM: New run =================
+10/30/2021 05:12:03, PM: Processing started
+10/30/2021 05:12:03, PM: Processing finished
+10/30/2021 05:12:14, PM: New run =================
+10/30/2021 05:12:14, PM: Processing started
+10/30/2021 05:12:14, PM: Processing finished
+10/30/2021 05:12:24, PM: New run =================
+10/30/2021 05:12:24, PM: Processing started
+10/30/2021 05:12:24, PM: Processing finished
+10/30/2021 05:15:03, PM: New run =================
+10/30/2021 05:15:03, PM: Processing started
+10/30/2021 05:15:16, PM: New run =================
+10/30/2021 05:15:16, PM: Processing started
+10/30/2021 05:15:49, PM: New run =================
+10/30/2021 05:15:49, PM: Processing started
+10/30/2021 05:16:21, PM: New run =================
+10/30/2021 05:16:21, PM: Processing started
+10/30/2021 05:16:29, PM: New run =================
+10/30/2021 05:16:29, PM: Processing started
+10/30/2021 05:16:46, PM: New run =================
+10/30/2021 05:16:46, PM: Processing started
+10/30/2021 05:16:47, PM: Processing finished
+10/30/2021 05:18:33, PM: New run =================
+10/30/2021 05:18:33, PM: Processing started
+10/30/2021 05:18:54, PM: New run =================
+10/30/2021 05:18:54, PM: Processing started
+10/30/2021 05:19:49, PM: New run =================
+10/30/2021 05:19:49, PM: Processing started
+10/30/2021 05:20:20, PM: New run =================
+10/30/2021 05:20:20, PM: Processing started
+10/30/2021 05:27:28, PM: New run =================
+10/30/2021 05:27:28, PM: Processing started
+10/30/2021 05:28:20, PM: New run =================
+10/30/2021 05:28:20, PM: Processing started
+10/30/2021 05:28:20, PM: Processing finished
+10/30/2021 05:29:32, PM: New run =================
+10/30/2021 05:29:32, PM: Processing started
+10/30/2021 05:32:10, PM: New run =================
+10/30/2021 05:32:10, PM: Processing started
+10/30/2021 05:32:47, PM: New run =================
+10/30/2021 05:32:47, PM: Processing started
+10/30/2021 05:32:47, PM: Processing finished
+10/30/2021 05:33:55, PM: New run =================
+10/30/2021 05:33:55, PM: Processing started
+10/30/2021 05:33:55, PM: Processing finished
+10/30/2021 05:35:43, PM: New run =================
+10/30/2021 05:35:43, PM: Processing started
+10/30/2021 05:35:43, PM: Processing finished
+10/30/2021 05:36:45, PM: New run =================
+10/30/2021 05:36:45, PM: Processing started
+10/30/2021 05:37:36, PM: New run =================
+10/30/2021 05:37:36, PM: Processing started
+10/30/2021 05:37:36, PM: Processing finished
+10/30/2021 05:37:54, PM: New run =================
+10/30/2021 05:37:54, PM: Processing started
+10/30/2021 05:37:54, PM: Processing finished
+10/30/2021 05:39:28, PM: New run =================
+10/30/2021 05:39:28, PM: Processing started
+10/30/2021 05:39:28, PM: Processing finished
+10/30/2021 05:40:16, PM: New run =================
+10/30/2021 05:40:16, PM: Processing started
+10/30/2021 05:40:32, PM: New run =================
+10/30/2021 05:40:32, PM: Processing started
+10/30/2021 05:40:32, PM: Processing finished
+10/30/2021 05:41:52, PM: New run =================
+10/30/2021 05:41:52, PM: Processing started
+10/30/2021 05:42:06, PM: New run =================
+10/30/2021 05:42:06, PM: Processing started
+10/30/2021 05:42:06, PM: Processing finished
+10/30/2021 05:42:48, PM: New run =================
+10/30/2021 05:42:48, PM: Processing started
+10/30/2021 05:44:04, PM: New run =================
+10/30/2021 05:44:04, PM: Processing started
+10/30/2021 05:44:04, PM: Processing finished
+10/30/2021 05:44:18, PM: New run =================
+10/30/2021 05:44:18, PM: Processing started
+10/30/2021 05:44:18, PM: Processing finished
+10/30/2021 05:45:29, PM: New run =================
+10/30/2021 05:45:29, PM: Processing started
+10/30/2021 05:45:29, PM: Processing finished
+10/30/2021 05:48:23, PM: New run =================
+10/30/2021 05:48:23, PM: Processing started
+10/30/2021 05:49:08, PM: New run =================
+10/30/2021 05:49:08, PM: Processing started
+10/30/2021 05:49:27, PM: New run =================
+10/30/2021 05:49:27, PM: Processing started
+10/30/2021 05:49:41, PM: New run =================
+10/30/2021 05:49:41, PM: Processing started
+10/30/2021 05:52:45, PM: New run =================
+10/30/2021 05:52:45, PM: Processing started
+10/30/2021 05:52:45, PM: Processing finished
+10/30/2021 05:56:52, PM: New run =================
+10/30/2021 05:56:52, PM: Processing started
+10/30/2021 05:56:52, PM: Processing finished
+10/30/2021 06:02:22, PM: New run =================
+10/30/2021 06:02:22, PM: Processing started
+10/30/2021 06:02:52, PM: New run =================
+10/30/2021 06:02:52, PM: Processing started
+10/30/2021 06:03:11, PM: New run =================
+10/30/2021 06:03:11, PM: Processing started
+10/30/2021 06:03:29, PM: New run =================
+10/30/2021 06:03:29, PM: Processing started
+10/30/2021 06:06:35, PM: New run =================
+10/30/2021 06:06:35, PM: Processing started
+10/30/2021 06:06:35, PM: Processing finished
+10/30/2021 06:06:46, PM: New run =================
+10/30/2021 06:06:46, PM: Processing started
+10/30/2021 06:06:46, PM: Processing finished
+10/30/2021 06:08:11, PM: New run =================
+10/30/2021 06:08:11, PM: Processing started
+10/30/2021 06:08:11, PM: Processing finished
+10/30/2021 06:10:02, PM: New run =================
+10/30/2021 06:10:02, PM: Processing started
+10/30/2021 06:10:02, PM: Processing finished
+10/30/2021 06:10:44, PM: New run =================
+10/30/2021 06:10:44, PM: Processing started
+10/30/2021 06:10:45, PM: Processing finished
+10/30/2021 06:12:24, PM: New run =================
+10/30/2021 06:12:24, PM: Processing started
+10/30/2021 06:12:24, PM: execution stopped; rows don't match at index : 5
+10/30/2021 06:12:24, PM: Processing finished
+10/30/2021 06:13:03, PM: New run =================
+10/30/2021 06:13:03, PM: Processing started
+10/30/2021 06:13:03, PM: execution stopped; rows don't match at index : 5
+10/30/2021 06:13:03, PM: Processing finished
+10/30/2021 06:13:20, PM: New run =================
+10/30/2021 06:13:20, PM: Processing started
+10/30/2021 06:13:20, PM: execution stopped; rows don't match at index : 5
+10/30/2021 06:13:20, PM: Processing finished
+10/30/2021 06:13:48, PM: New run =================
+10/30/2021 06:13:48, PM: Processing started
+10/30/2021 06:13:48, PM: execution stopped; rows don't match at index : 5
+10/30/2021 06:13:48, PM: Processing finished
+10/30/2021 06:14:24, PM: execution stopped; rows don't match at index : 5
+10/30/2021 06:21:54, PM: New run =================
+10/30/2021 06:21:54, PM: Processing started
+10/30/2021 06:21:54, PM: execution stopped; rows don't match at index : 5
+10/30/2021 06:21:54, PM: Processing finished
+11/09/2021 04:38:37, PM: New run =================
+11/09/2021 04:38:37, PM: Processing started
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 5
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 6
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 7
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 8
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 11
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 12
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 13
+11/09/2021 04:38:37, PM: Processing finished
+11/09/2021 04:39:14, PM: New run =================
+11/09/2021 04:39:14, PM: Processing started
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 6
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 7
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 8
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 9
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 12
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 13
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 14
+11/09/2021 04:39:15, PM: Processing finished
+11/09/2021 04:40:17, PM: New run =================
+11/09/2021 04:40:17, PM: Processing started
+11/09/2021 04:40:17, PM: rows don't match at index 6 : "this is a"  "line"\n None
+11/09/2021 04:40:17, PM: rows don't match at index 7 : "which got cut off"\n None None
+11/09/2021 04:40:17, PM: rows don't match at index 8 : "this is another"  "line"\n None
+11/09/2021 04:40:17, PM: rows don't match at index 9 : "which got cut off"\n None None
+11/09/2021 04:40:17, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:40:17, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:40:17, PM: rows don't match at index 14 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:40:17, PM: Processing finished
+11/09/2021 04:42:25, PM: New run =====
+11/09/2021 04:42:25, PM: Processing started
+11/09/2021 04:42:25, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 04:42:25, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 04:42:25, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 04:42:25, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 04:42:25, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:42:25, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:42:25, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:42:25, PM: Processing finished
+11/09/2021 04:44:33, PM: New run ==========
+11/09/2021 04:44:33, PM: Processing started
+11/09/2021 04:44:33, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 04:44:33, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 04:44:33, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 04:44:33, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 04:44:33, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:44:33, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:44:33, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:44:34, PM: Script done ... ==========
+11/09/2021 04:44:34, PM: Processing finished
+11/09/2021 04:45:30, PM: New run ==========
+11/09/2021 04:45:30, PM: Processing started
+11/09/2021 04:45:30, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 04:45:30, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 04:45:30, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 04:45:30, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 04:45:30, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:45:30, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:45:30, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:45:30, PM: Processing finished
+11/09/2021 04:45:30, PM: Script done ... ==========
+11/09/2021 04:59:52, PM: New run ==========
+11/09/2021 04:59:52, PM: Processing started
+11/09/2021 04:59:52, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 04:59:52, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 04:59:52, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 04:59:52, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 04:59:52, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:59:52, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:59:52, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:59:52, PM: Processing finished
+11/09/2021 04:59:52, PM: Script done ... ==========
+11/09/2021 05:01:09, PM: New run ==========
+11/09/2021 05:01:09, PM: Processing started
+11/09/2021 05:01:09, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 05:01:09, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 05:01:09, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 05:01:09, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 05:01:09, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 05:01:09, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 05:01:09, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 05:01:09, PM: Processing finished
+11/09/2021 05:01:09, PM: Script done ... ==========
+11/09/2021 05:01:41, PM: New run ==========
+11/09/2021 05:01:41, PM: Processing started
+11/09/2021 05:01:41, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 05:01:41, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 05:01:41, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 05:01:41, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 05:01:41, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 05:01:41, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 05:01:41, PM: Processing finished
+11/09/2021 05:01:41, PM: Script done ... ==========

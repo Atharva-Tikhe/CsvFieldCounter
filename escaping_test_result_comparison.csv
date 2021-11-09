@@ -1,0 +1,7 @@
+index,linewise processing,autoload in pandas,match
+5,"""this is a""  ""line""\n [""which got cut off""\n]","""this is a""  ""line""\n None",False
+6,"""TUV"" 785 ""W'XY'Z""\n","""which got cut off""\n None None",False
+7,"""TUV"" 785 ""W'XY'Z""\n","""this is another""  ""line""\n None",False
+8,"""TUV"" 785 ""W'XY'Z""\n","""which got cut off""\n None None",False
+11,"""this is a""  ""line""\n [""which got cut off""\n]","""TUV"" 785 ""W'XY'Z""\n",False
+12,"""which got cut off""\n None None","""TUV"" 785 ""W'XY'Z""\n",False
