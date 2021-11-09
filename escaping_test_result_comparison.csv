@@ -1,15 +1,7 @@
 index,linewise processing,autoload in pandas,match
-0,"""ABC,'DE,F',GHI"" 90 ""JKL""\n","""ABC,'DE,F',GHI"" 90 ""JKL""\n",True
-1,"""ABC"" 23 ""XYZ""\n","""ABC"" 23 ""XYZ""\n",True
-2,"""ABC"" 23 ""XYZ""\n","""ABC"" 23 ""XYZ""\n",True
-3,"""ABC"" 200 ""MNO'PQR'S""\n","""ABC"" 200 ""MNO'PQR'S""\n",True
-4,"""TUV"" 785 ""W'XY'Z""\n","""TUV"" 785 ""W'XY'Z""\n",True
 5,"""this is a""  ""line""\n [""which got cut off""\n]","""this is a""  ""line""\n None",False
 6,"""TUV"" 785 ""W'XY'Z""\n","""which got cut off""\n None None",False
 7,"""TUV"" 785 ""W'XY'Z""\n","""this is another""  ""line""\n None",False
 8,"""TUV"" 785 ""W'XY'Z""\n","""which got cut off""\n None None",False
-9,"""TUV"" 785 ""W'XY'Z""\n","""TUV"" 785 ""W'XY'Z""\n",True
-10,"""TUV"" 785 ""W'XY'Z""\n","""TUV"" 785 ""W'XY'Z""\n",True
 11,"""this is a""  ""line""\n [""which got cut off""\n]","""TUV"" 785 ""W'XY'Z""\n",False
 12,"""which got cut off""\n None None","""TUV"" 785 ""W'XY'Z""\n",False
-13,"""this is another""  ""line""\n [""which got cut off""]","""TUV"" 785 ""W'XY'Z""\n",False

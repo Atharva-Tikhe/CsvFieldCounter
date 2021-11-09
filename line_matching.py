@@ -66,18 +66,7 @@ class line_matching:
             columns=['linewise processing', 'autoload in pandas', 'match'])
 
         for index in row_corrected_df.index:
-            if row_corrected_df.iloc[[index]].to_string(header=False, index=False) == df_untouched.iloc[[index]].to_string(header=False, index=False):
-
-                final_df.at[f'{index}', 'linewise processing'] = row_corrected_df.iloc[[
-                    index]].to_string(header=False, index=False)
-
-                final_df.at[f'{index}', 'autoload in pandas'] = df_untouched.iloc[[
-                    index]].to_string(header=False, index=False)
-                final_df.at[f'{index}', 'match'] = True
-
-            else:
-                logging.warning(
-                    f"rows don't match at index {index} : {df_untouched.iloc[[index]].to_string(header=False, index=False)}")
+            if row_corrected_df.iloc[[index]].to_string(header=False, index=False) != df_untouched.iloc[[index]].to_string(header=False, index=False):
 
                 final_df.at[f'{index}', 'linewise processing'] = row_corrected_df.iloc[[
                     index]].to_string(header=False, index=False)
@@ -85,11 +74,20 @@ class line_matching:
                 final_df.at[f'{index}', 'autoload in pandas'] = df_untouched.iloc[[
                     index]].to_string(header=False, index=False)
                 final_df.at[f'{index}', 'match'] = False
+                logging.warning(
+                    f"rows don't match at index {index} : {df_untouched.iloc[[index]].to_string(header=False, index=False)}")
+            else:
+                continue
+                final_df.at[f'{index}', 'linewise processing'] = row_corrected_df.iloc[[
+                    index]].to_string(header=False, index=False)
 
-                final_df.to_csv(
-                    f"{self.settings['output']}_comparison.csv", index_label='index')
+                final_df.at[f'{index}', 'autoload in pandas'] = df_untouched.iloc[[
+                    index]].to_string(header=False, index=False)
+                final_df.at[f'{index}', 'match'] = False
+            final_df.to_csv(
+                f"{self.settings['output']}_comparison.csv", index_label='index')
 
-        print(final_df[final_df['match'] == False])
+        print(final_df)
 
 
 settings = {
