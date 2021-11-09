@@ -16,12 +16,13 @@ class line_matching:
         logging.basicConfig(filename='line_matching.log', format="%(asctime)s %(message)s",
                             datefmt="%m/%d/%Y %I:%M:%S, %p:", level=logging.INFO)
 
-        logging.info('New run =================')
+        logging.info('New run ' + '='*10)
         logging.info('Processing started')
         final_lines = self.escape_comma()
-        final_lines_modified = self.correct_rows_and_match(final_lines)
+        self.correct_rows_and_match(final_lines)
 
         logging.info('Processing finished')
+        logging.info('Script done ... ' + '='*10)
 
     def escape_comma(self) -> None:
         final_lines = []
@@ -48,7 +49,6 @@ class line_matching:
             if len(line) < actual_cols:
                 lines[lines.index(line)].append(
                     lines[lines.index(line)+1])
-
                 '''
                     Use of extend was dropped as it was creating new element in the list (which gave wrong column numbers)
                     append will cause nesting but column number will be preserved.
@@ -74,9 +74,11 @@ class line_matching:
                 final_df.at[f'{index}', 'autoload in pandas'] = df_untouched.iloc[[
                     index]].to_string(header=False, index=False)
                 final_df.at[f'{index}', 'match'] = True
+
             else:
-                logging.warn(
-                    f"execution stopped; rows don't match at index : {index}")
+                logging.warning(
+                    f"rows don't match at index {index} : {df_untouched.iloc[[index]].to_string(header=False, index=False)}")
+
                 final_df.at[f'{index}', 'linewise processing'] = row_corrected_df.iloc[[
                     index]].to_string(header=False, index=False)
 
@@ -86,8 +88,8 @@ class line_matching:
 
                 final_df.to_csv(
                     f"{self.settings['output']}_comparison.csv", index_label='index')
-                break
-        print(final_df)
+
+        print(final_df[final_df['match'] == False])
 
 
 settings = {

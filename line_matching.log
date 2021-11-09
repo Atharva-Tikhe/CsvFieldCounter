@@ -381,3 +381,69 @@
 10/30/2021 06:13:48, PM: execution stopped; rows don't match at index : 5
 10/30/2021 06:13:48, PM: Processing finished
 10/30/2021 06:14:24, PM: execution stopped; rows don't match at index : 5
+10/30/2021 06:21:54, PM: New run =================
+10/30/2021 06:21:54, PM: Processing started
+10/30/2021 06:21:54, PM: execution stopped; rows don't match at index : 5
+10/30/2021 06:21:54, PM: Processing finished
+11/09/2021 04:38:37, PM: New run =================
+11/09/2021 04:38:37, PM: Processing started
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 5
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 6
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 7
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 8
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 11
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 12
+11/09/2021 04:38:37, PM: execution stopped; rows don't match at index : 13
+11/09/2021 04:38:37, PM: Processing finished
+11/09/2021 04:39:14, PM: New run =================
+11/09/2021 04:39:14, PM: Processing started
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 6
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 7
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 8
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 9
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 12
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 13
+11/09/2021 04:39:15, PM: execution stopped; rows don't match at index : 14
+11/09/2021 04:39:15, PM: Processing finished
+11/09/2021 04:40:17, PM: New run =================
+11/09/2021 04:40:17, PM: Processing started
+11/09/2021 04:40:17, PM: rows don't match at index 6 : "this is a"  "line"\n None
+11/09/2021 04:40:17, PM: rows don't match at index 7 : "which got cut off"\n None None
+11/09/2021 04:40:17, PM: rows don't match at index 8 : "this is another"  "line"\n None
+11/09/2021 04:40:17, PM: rows don't match at index 9 : "which got cut off"\n None None
+11/09/2021 04:40:17, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:40:17, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:40:17, PM: rows don't match at index 14 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:40:17, PM: Processing finished
+11/09/2021 04:42:25, PM: New run =====
+11/09/2021 04:42:25, PM: Processing started
+11/09/2021 04:42:25, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 04:42:25, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 04:42:25, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 04:42:25, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 04:42:25, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:42:25, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:42:25, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:42:25, PM: Processing finished
+11/09/2021 04:44:33, PM: New run ==========
+11/09/2021 04:44:33, PM: Processing started
+11/09/2021 04:44:33, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 04:44:33, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 04:44:33, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 04:44:33, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 04:44:33, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:44:33, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:44:33, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:44:34, PM: Script done ... ==========
+11/09/2021 04:44:34, PM: Processing finished
+11/09/2021 04:45:30, PM: New run ==========
+11/09/2021 04:45:30, PM: Processing started
+11/09/2021 04:45:30, PM: rows don't match at index 5 : "this is a"  "line"\n None
+11/09/2021 04:45:30, PM: rows don't match at index 6 : "which got cut off"\n None None
+11/09/2021 04:45:30, PM: rows don't match at index 7 : "this is another"  "line"\n None
+11/09/2021 04:45:30, PM: rows don't match at index 8 : "which got cut off"\n None None
+11/09/2021 04:45:30, PM: rows don't match at index 11 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:45:30, PM: rows don't match at index 12 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:45:30, PM: rows don't match at index 13 : "TUV" 785 "W'XY'Z"\n
+11/09/2021 04:45:30, PM: Processing finished
+11/09/2021 04:45:30, PM: Script done ... ==========
